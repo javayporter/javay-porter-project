@@ -1,0 +1,49 @@
+.sidebar-container {
+  flex: 1.5;
+  background-color: hsl(0, 0%, 0%);
+  // start sticky;
+  position: sticky;
+  top: 0;
+  height: calc(100vh);
+  //top: 70px; // height of the navbar
+  //height: calc(100vh - 70px); // height of page minus navbar height
+  // end sticky
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .sidebar-content {
+    padding: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.907);
+
+    .top {
+      border-bottom: 1px solid lightgray;
+      text-align: center;
+      padding-bottom: 15%;
+      //padding: 0.7rem;
+      font-weight: bold;
+      font-size: 16px;
+      .sidebar-summary {
+        margin-top: 15%;
+        margin-bottom: 15%;
+      }
+      .socials {
+      }
+    }
+    .bottom {
+      padding: 2.5rem;
+      .sidenav-links {
+        font-size: 18px;
+        margin-bottom: 15%;
+        a {
+          color: white;
+          text-decoration: none;
+          display: block;
+          line-height: 1.75;
+        }
+      }
+    }
+  }
+}
