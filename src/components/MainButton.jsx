@@ -1,4 +1,4 @@
-import "../stylesheets/MainButton.scss";
+//import "../stylesheets/MainButton.scss";
 const MainButton = ({ text, textColor, buttonColor }) => {
   const componentStyle = {
     color: { textColor },

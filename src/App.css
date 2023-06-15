@@ -1,16 +1,1 @@
-.app-container {
-  display: flex;
-  width: 100%;
-}
 
-.feed-container {
-  padding: 1.5rem;
-  flex: 6;
-}
-
-.bottom-container {
-  padding: 3rem;
-}
-.resume-container {
-  padding-left: 50%;
-}

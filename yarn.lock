@@ -289,7 +289,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.11.6":
+"@popperjs/core@npm:^2.11.6, @popperjs/core@npm:^2.11.8":
   version: 2.11.8
   resolution: "@popperjs/core@npm:2.11.8"
   checksum: 5c180df0c3fab5f4ebb81c79898186c0df3e13d72e27fe49d2a80873a27d8e12a16866d70da648d3d34caebce638fdb1a0730d1c1c5a8a40451db0160b92b375
@@ -304,6 +304,13 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
   checksum: 3b8d3933d9f5f9e16a5b448b753c033146ff342f8cacc09db4e2a89458dce6d3a95f91769921f3932de983d5f64db10ece560f806d02a6667abd02dbd9e5ab26
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.6.3":
+  version: 1.6.3
+  resolution: "@remix-run/router@npm:1.6.3"
+  checksum: 849a8a3c3ca60cc8e644df0ea27ab36f6874c20b9ced3b0a5993adfaf69035604d40fa8cc5842ae98fbe6396b5b926ebada1a664a8f891cf6be3b8fe75d42929
   languageName: node
   linkType: hard
 
@@ -892,6 +899,13 @@ __metadata:
     shebang-command: "npm:^2.0.0"
     which: "npm:^2.0.1"
   checksum: 37ec685f91f04d4719892f305fa6f632aae256df7f2f3f98d5c36f2197651ad7b77851aaa2d397d19a9555f0fb89fa18f9bb3ff4b440535cc0fb4fe0a72004b9
+  languageName: node
+  linkType: hard
+
+"css-mediaquery@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "css-mediaquery@npm:0.1.2"
+  checksum: ea4e2eecf3d9912ff3be23b20472661e31b40e8e87069596128af7b440d5d644d38adf81014a5a3aafecdcc2398ee4500ce2e953485c26d4a23d0aedc060c10c
   languageName: node
   linkType: hard
 
@@ -1687,6 +1701,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hyphenate-style-name@npm:^1.0.0":
+  version: 1.0.4
+  resolution: "hyphenate-style-name@npm:1.0.4"
+  checksum: 85424236922363dfcdf6c9b492082b9365773a621d294afaff6cb2ff4189b17a1b7e4d06563f185d0fe60da0359bff8703edf654850f2280831e1593455f695e
+  languageName: node
+  linkType: hard
+
 "iconv-lite@npm:^0.6.2":
   version: 0.6.3
   resolution: "iconv-lite@npm:0.6.3"
@@ -1979,6 +2000,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "javay-porter-project@workspace:."
   dependencies:
+    "@popperjs/core": "npm:^2.11.8"
     "@types/react": "npm:^18.0.37"
     "@types/react-dom": "npm:^18.0.11"
     "@vitejs/plugin-react-swc": "npm:^3.0.0"
@@ -1990,6 +2012,10 @@ __metadata:
     react: "npm:^18.2.0"
     react-bootstrap: "npm:^2.7.4"
     react-dom: "npm:^18.2.0"
+    react-icons: "npm:^4.9.0"
+    react-responsive: "npm:^9.0.2"
+    react-router: "npm:^6.13.0"
+    react-router-dom: "npm:^6.13.0"
     sass: "npm:^1.63.0"
     vite: "npm:^4.3.9"
   languageName: unknown
@@ -2111,6 +2137,15 @@ __metadata:
     socks-proxy-agent: "npm:^7.0.0"
     ssri: "npm:^9.0.0"
   checksum: cf0d4b94fb0b022d41373fe7ce0f2a170a7c2668c7404f985c4fa6fe465c24cc3d1a6a84e0a6d4b2cd60cf7d41ec26cc5205d258e15f06c33179c14a31a5e4bd
+  languageName: node
+  linkType: hard
+
+"matchmediaquery@npm:^0.3.0":
+  version: 0.3.1
+  resolution: "matchmediaquery@npm:0.3.1"
+  dependencies:
+    css-mediaquery: "npm:^0.1.2"
+  checksum: 9fcc5bf1809fe737c299c29a95816a496b5e15c0d891d827d3351316562d12dcc0cfe99c7e9fe7a625df66ba716b9d9ea9ff854e9c57eda5c91854746bfc1512
   languageName: node
   linkType: hard
 
@@ -2529,7 +2564,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -2593,6 +2628,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-icons@npm:^4.9.0":
+  version: 4.9.0
+  resolution: "react-icons@npm:4.9.0"
+  peerDependencies:
+    react: "*"
+  checksum: 463a61197cd55f70dedb730dbf0ba7b5aaa31016d431032ceef07dd5eab810ec8e71bc2620fd7b77802ce377027b56d868056f7f58694b3e7e59a79254d4eecb
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1, react-is@npm:^16.3.2":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -2604,6 +2648,44 @@ __metadata:
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
   checksum: 9bdce04e47ec2c2a063640f7acf073ddbf2fee84f0ebdff3bfe78d3936b03a23c50a72b0e80bba62861763a4994dcdfcd9bfa91ff6f787bcf59d388bfdd1f4a8
+  languageName: node
+  linkType: hard
+
+"react-responsive@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "react-responsive@npm:9.0.2"
+  dependencies:
+    hyphenate-style-name: "npm:^1.0.0"
+    matchmediaquery: "npm:^0.3.0"
+    prop-types: "npm:^15.6.1"
+    shallow-equal: "npm:^1.2.1"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: e7dfbca8d614e0fd94bd2b6bd1bfd03338b446a98b44f11f2ed1166a6ed4b54463db4b7068d933e1832fa50ba4d074f873b86c9e3a85de137ee8d2982758b689
+  languageName: node
+  linkType: hard
+
+"react-router-dom@npm:^6.13.0":
+  version: 6.13.0
+  resolution: "react-router-dom@npm:6.13.0"
+  dependencies:
+    "@remix-run/router": "npm:1.6.3"
+    react-router: "npm:6.13.0"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: a0e59207d146f8e93a25ef139ef14c888857e9feb0c8fcb73fc3c6bd42e777bb031c132d89a23b6b5ab27b5fa0e962a94e8ed2c95916e969ec97c890b89ce216
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.13.0, react-router@npm:^6.13.0":
+  version: 6.13.0
+  resolution: "react-router@npm:6.13.0"
+  dependencies:
+    "@remix-run/router": "npm:1.6.3"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: cdf8ce2cb1ad40f2254648a8ec8f6ad6f9b8b5446bd6a52b95c39a66cf032f20f8d18ecdff99ad580ad4e9a14486decbeb5e4a1db879cd44b139ba4ed64e86ac
   languageName: node
   linkType: hard
 
@@ -2821,6 +2903,13 @@ __metadata:
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
   checksum: 9e8f5aeb7cd850a60b5dbf47d42051137c14f58f375d9a70ca227b797d6ffed3dabf659587d2f183231085f1da2dc3067e2af9f5fcd66fb65c98da5fb54a22fb
+  languageName: node
+  linkType: hard
+
+"shallow-equal@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "shallow-equal@npm:1.2.1"
+  checksum: 2c31d419510af67f20440a6d759d41bdeadeb8dd08cab08687a9dd1f7fc5aeccda4f2e8c83b9da001bf5984cff2f0fa264a81508ef1efc51df3a3023626fef9b
   languageName: node
   linkType: hard
 

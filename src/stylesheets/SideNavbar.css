@@ -1,0 +1,49 @@
+.navbar {
+  min-height: calc(100vh);
+  top: 0;
+  color: var(--color-secondary-text);
+  padding: 1.5rem;
+}
+
+.nav__links {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+.nav__links a {
+  transition: var(--transition);
+}
+.nav__links a:hover {
+  color: var(--color-secondary);
+}
+
+.active-nav {
+  position: relative;
+}
+
+.active-nav::after {
+  background-color: red;
+  content: "";
+  display: "block";
+  height: 1.2rem;
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  /* .navbar {
+    min-height: 5rem;
+  } */
+}
+
+/* MEDIA QUERIES (small and medium screens */
+@media screen and (max-width: 750px) {
+  .navbar {
+    min-height: 5rem;
+  }
+  .nav__links {
+    gap: 0.5rem;
+  }
+  .img-container {
+    display: none;
+  }
+}

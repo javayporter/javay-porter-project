@@ -1,4 +1,4 @@
-import "../stylesheets/ExperienceCard.scss";
+import "../stylesheets/ExperienceCard.css";
 const ExperienceCard = ({ title, company, location, dates, description }) => {
   const workExperience = [
     {
@@ -30,9 +30,9 @@ const ExperienceCard = ({ title, company, location, dates, description }) => {
     },
   ];
   const content = workExperience.map((job) => (
-    <div className="ec-main-container" key={job.id}>
+    <div className="card__container" key={job.id}>
       <div className="work-details">
-        <h1>{job.title}</h1>
+        <h2>{job.title}</h2>
         <div className="job-details">
           {/* <h3>{job.company}</h3> */}
           <h3>{job.location}</h3>

@@ -1,4 +1,4 @@
-import "../stylesheets/Summary.scss";
+//import "../stylesheets/Summary.scss";
 const Summary = (props) => {
   return (
     <div className="summary-container">
