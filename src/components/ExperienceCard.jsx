@@ -32,11 +32,11 @@ const ExperienceCard = ({ title, company, location, dates, description }) => {
   const content = workExperience.map((job) => (
     <div className="card__container" key={job.id}>
       <div className="work-details">
-        <h2>{job.title}</h2>
         <div className="job-details">
           {/* <h3>{job.company}</h3> */}
-          <h3>{job.location}</h3>
-          <h3>{job.dates}</h3>
+          <h3>{job.title}</h3>
+          <h4>{job.location}</h4>
+          <h4>{job.dates}</h4>
         </div>
         <div>
           <p>{job.description}</p>

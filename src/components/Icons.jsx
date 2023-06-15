@@ -18,14 +18,15 @@ export const navIcons = [
 ];
 
 export const SocialIcons = () => {
+  const iconSize = "2em";
   return (
     <div className="icon__container">
       <ul className="icon__links">
-        <FaTwitterSquare />
-        <FaLinkedin />
-        <FaGithub />
-        <SiBuymeacoffee />
-        <SiUpwork />
+        <FaTwitterSquare className="icon-padding" size={iconSize} />
+        <FaLinkedin className="icon-padding" size={iconSize} />
+        <FaGithub className="icon-padding" size={iconSize} />
+        <SiBuymeacoffee className="icon-padding" size={iconSize} />
+        <SiUpwork className="icon-padding" size={iconSize} />
       </ul>
     </div>
   );

@@ -13,8 +13,12 @@ function App() {
             <SideNavbar />
           </div>
           <div className="app__container-right">
-            <Summary />
-            <ExperienceCard />
+            <div className="app__container-right__top">
+              <Summary />
+            </div>
+            <div className="app__container-right__bottom">
+              <ExperienceCard />
+            </div>
           </div>
         </div>
       </BrowserRouter>

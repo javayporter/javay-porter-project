@@ -20,6 +20,9 @@
 
   --transition: all 50ms ease;
 }
+html {
+  font-size: calc(10px + 0.390625vw);
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -31,7 +34,7 @@ button {
   border: none;
   color: white;
   padding: 5px 12px;
-  margin: 0% 2% 2% 0%;
+  margin: 1.5rem 0.5rem;
   border-radius: 4px;
   font-weight: bold;
   font-size: 15px;
@@ -50,10 +53,18 @@ button {
 .app__container-left {
   flex: 2;
   background-color: var(--color-primary);
+  position: sticky;
+  top: 0;
+  max-height: calc(100vh);
 }
 
 .app__container-right {
   flex: 8;
+}
+.app__container-right__top {
+  background-color: var(--color-secondary-text);
+}
+.app__container-right__bottom {
   padding: 2.5rem;
 }
 
@@ -69,17 +80,33 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.2;
+  line-height: 1.5;
+}
+.summary__container {
+  display: flex;
+  padding: 3rem;
+  /* justify-content: space-between;
+  gap: 5rem; */
+}
+.icon-padding {
+  padding: 0.2rem;
 }
 
-h1 {
+/* h1 {
   font-size: 5vw;
 }
 h2 {
   font-size: 3.5vw;
-}
+} */
 
 /* MEDIA QUERIES (small and medium screens */
+@media screen and (max-width: 601px) {
+  .button__container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 750px) {
   nav {
   }
@@ -90,17 +117,20 @@ h2 {
   .app__container {
     display: inline;
   }
-  .app__container-right {
+  .app__container-right__top {
     padding: 1rem;
+  }
+  .summary__container {
+    display: inline;
   }
 }
 
 /* MEDIA QUERIES (large screens */
 @media screen and (min-width: 600px) {
-  h1 {
+  /* h1 {
     font-size: 35px;
   }
   h2 {
     font-size: 20px;
-  }
+  } */
 }

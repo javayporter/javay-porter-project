@@ -1,4 +1,18 @@
-.summary-container {
+.summary-text {
+  margin-top: 1rem;
+}
+.left {
+  flex: 4;
+}
+.right {
+  flex: 3;
+  padding: 3rem 3rem 0 3rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* .summary-container {
   display: flex;
   justify-content: left;
   height: 5vh;
@@ -26,4 +40,4 @@
     flex: 1.5;
     padding: 3rem;
   }
-}
+} */

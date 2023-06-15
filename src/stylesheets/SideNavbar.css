@@ -1,8 +1,18 @@
 .navbar {
   min-height: calc(100vh);
-  top: 0;
   color: var(--color-secondary-text);
-  padding: 1.5rem;
+  padding: 1rem;
+
+  /* position: absolute;
+  top: 50%;
+  max-width: 15%; */
+}
+.top {
+  /* padding: 0.5rem; */
+  padding-bottom: 1.5rem;
+}
+.sidebar-summary {
+  padding-bottom: 1.5rem;
 }
 
 .nav__links {
@@ -27,6 +37,10 @@
   display: "block";
   height: 1.2rem;
   position: absolute;
+}
+
+.img-container {
+  padding-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 1024px) {

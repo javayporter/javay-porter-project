@@ -1,9 +1,16 @@
 .card__container {
   border: none;
-  max-width: 100%;
+  max-width: 55%;
   /* box-shadow: 0px 0px 2px #ccc; */
-  margin: 12px 0px;
+  /* margin: 12px 0px; */
   padding: 2% 0% 2% 0%;
+}
+
+.work-details {
+}
+.job-details {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 /* .work-details {
     padding: 4px 16px 20px 16px;
