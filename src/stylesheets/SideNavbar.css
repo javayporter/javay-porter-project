@@ -7,9 +7,13 @@
   top: 50%;
   max-width: 15%; */
 }
+.nav__toggle-btn {
+  display: none;
+}
 .top {
   /* padding: 0.5rem; */
   padding-bottom: 1.5rem;
+  text-align: center;
 }
 .sidebar-summary {
   padding-bottom: 1.5rem;
@@ -43,12 +47,6 @@
   padding-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 1024px) {
-  /* .navbar {
-    min-height: 5rem;
-  } */
-}
-
 /* MEDIA QUERIES (small and medium screens */
 @media screen and (max-width: 750px) {
   .navbar {
@@ -59,5 +57,9 @@
   }
   .img-container {
     display: none;
+  }
+  .nav__toggle-btn {
+    display: inline-block;
+    cursor: pointer;
   }
 }
