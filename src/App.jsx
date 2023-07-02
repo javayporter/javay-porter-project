@@ -7,21 +7,19 @@ import "../src/App.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <div className="app__container">
-          <div className="app__container-left">
-            <SideNavbar />
+      <div className="app__container">
+        <div className="app__container-left">
+          <SideNavbar />
+        </div>
+        <div className="app__container-right">
+          <div className="app__container-right__top">
+            <Summary />
           </div>
-          <div className="app__container-right">
-            <div className="app__container-right__top">
-              <Summary />
-            </div>
-            <div className="app__container-right__bottom">
-              <ExperienceCard />
-            </div>
+          <div className="app__container-right__bottom">
+            <ExperienceCard />
           </div>
         </div>
-      </BrowserRouter>
+      </div>
     </>
   );
 }
