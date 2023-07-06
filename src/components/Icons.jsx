@@ -8,13 +8,13 @@ import { SiUpwork, SiBuymeacoffee } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
 import { RiAliensFill } from "react-icons/ri";
 import { GiSpellBook } from "react-icons/gi";
-import { GrContact } from "react-icons/gr";
+import { BiMessage } from "react-icons/bi";
 
 export const navIcons = [
   <RiAliensFill />,
   <GiSpellBook />,
   <FaLaptopCode />,
-  <GrContact />,
+  <BiMessage />  
 ];
 
 export const SocialIcons = () => {

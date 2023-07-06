@@ -15,14 +15,24 @@
   padding-bottom: 1.5rem;
   text-align: center;
 }
+
+.bottom {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding-top: 15%;
+    border-top: solid;
+    border-color: rgba(211, 211, 211, 0.77);
+    
+}
 .sidebar-summary {
   padding-bottom: 1.5rem;
 }
 
 .nav__links {
   display: grid;
-  place-items: center;
-  gap: 1rem;
+  /* place-items: center;*/
+  gap: 1rem; 
 }
 .nav__links a {
   transition: var(--transition);
@@ -30,6 +40,18 @@
 .nav__links a:hover {
   color: var(--color-secondary);
 }
+
+.nav__spacing_container {
+    display: flex;
+    
+    
+}
+
+.nav__spacing_1 {
+    margin-right: 10%;
+    
+}
+
 
 .active-nav {
   position: relative;
@@ -45,6 +67,7 @@
 
 .img-container {
   padding-bottom: 1.5rem;
+  margin-left: 15%;
 }
 
 /* MEDIA QUERIES (small and medium screens */
@@ -61,5 +84,12 @@
   .nav__toggle-btn {
     display: inline-block;
     cursor: pointer;
+  }
+  .bottom {
+    padding-top: 0px;
+    border:none;    
+  }
+  .top {
+    padding-top: 5%;
   }
 }

@@ -10,12 +10,12 @@ const Summary = (props) => {
           <p>{props.summary}</p>
         </div>
         <div className="buttons">
-          <button className="fancy">View Projects</button>
+          <a href="/projects"><button className="fancy">View Projects</button></a>
           <button className="plain">Download Resume</button>
         </div>
       </div>
       <div className="right">
-        <img src={photo} alt="jp-photo" />
+        <img className="main-photo" src={photo} alt="jp-photo" />
       </div>
     </div>
   );
@@ -23,7 +23,7 @@ const Summary = (props) => {
 
 Summary.defaultProps = {
   username: "Javay Porter",
-  title: "Junior Software Engineer at Redirect Health",
+  title: "Junior Software Engineer",
   summary:
     "I'm a software engineer highly proficient in frontend and backend devolopment for simple to complex scalable web apps. I've had the pleasure of working for startups and huge organizations. Check out my blog for my perspective on those experiences. Want to know how I may help your project? Check out my portfolio and resume then reach out.",
 };

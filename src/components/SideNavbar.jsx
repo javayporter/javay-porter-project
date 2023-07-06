@@ -7,11 +7,12 @@ import { TiThMenu } from "react-icons/ti";
 import { SocialIcons } from "./Icons";
 
 const SideNavbar = (props) => {
+    const side_photo = "https://i.imgur.com/9MfC4Zz.png"
   return (
     <nav>
       <div className="navbar nav__container">
         <div className="top">
-          <div className="img-container">Side Nav Image</div>
+          <div className="img-container"><a href="/"><img src={side_photo} alt="test"/></a></div>
           <div className="sidebar-summary">{props.summary}</div>
           <div className="socials">
             <SocialIcons />
@@ -25,13 +26,19 @@ const SideNavbar = (props) => {
             {links.map(({ name, path, icon }, index) => {
               return (
                 <li key={index}>
+                    <div className="nav__spacing_container">
+                <div className="nav__spacing_1">
                   {icon}
+                  </div>
+                  <div className="nav__spacing_2">
                   <NavLink
                     className={({ isActive }) => (isActive ? "active-nav" : "")}
                     to={path}
                   >
                     {name}
                   </NavLink>
+                  </div>
+                  </div>
                 </li>
               );
             })}
@@ -43,7 +50,7 @@ const SideNavbar = (props) => {
 };
 SideNavbar.defaultProps = {
   summary:
-    "Hi, my name is Javay Porter and I'm a junior software engineer. Welcome to my personal website!",
+    "Hi, my name is Javay Porter and I'm a software engineer. Welcome to my personal website!",
 };
 
 export default SideNavbar;

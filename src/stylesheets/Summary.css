@@ -7,18 +7,19 @@
 }
 .left {
   flex: 4;
-  border: solid;
-  border-color: blue;
+ 
 }
 .right {
   flex: 3;
   /* padding: 3rem 3rem 0 3rem; */
-  border: solid;
-  border-color: yellow;
+  
 }
 img {
   max-width: 100%;
   height: auto;
+}
+.main-photo {
+    display: none;
 }
 
 /* MEDIA QUERIES (small and medium screens */
