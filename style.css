@@ -45,6 +45,11 @@ a {
     font-weight: bolder;
 }
 
+.badge__container {
+    background-color: var(--color-secondary-text);
+    color: var(--color-primary);
+}
+
 .container {
   width: var(--container-width-lg);
   max-width: 1920px;

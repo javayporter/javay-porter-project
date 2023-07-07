@@ -9,6 +9,10 @@
   flex: 4;
  
 }
+.plain {
+    background-color: lightgray;
+    color: black;
+}
 .right {
   flex: 3;
   /* padding: 3rem 3rem 0 3rem; */

@@ -1,17 +1,20 @@
+
+
 .navbar {
   min-height: calc(100vh);
   color: var(--color-secondary-text);
   padding: 1rem;
-
-  /* position: absolute;
-  top: 50%;
-  max-width: 15%; */
+  display: flex;
+  flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+overflow-y:scroll;
 }
+
 .nav__toggle-btn {
   display: none;
 }
 .top {
-  /* padding: 0.5rem; */
   padding-bottom: 1.5rem;
   text-align: center;
 }
@@ -31,9 +34,9 @@
 
 .nav__links {
   display: grid;
-  /* place-items: center;*/
   gap: 1rem; 
 }
+
 .nav__links a {
   transition: var(--transition);
 }

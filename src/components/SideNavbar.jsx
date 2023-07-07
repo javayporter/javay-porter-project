@@ -10,6 +10,7 @@ const SideNavbar = (props) => {
     const side_photo = "https://i.imgur.com/9MfC4Zz.png"
   return (
     <nav>
+        
       <div className="navbar nav__container">
         <div className="top">
           <div className="img-container"><a href="/"><img src={side_photo} alt="test"/></a></div>
