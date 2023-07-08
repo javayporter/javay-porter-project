@@ -77,6 +77,12 @@ a {
 .app__container-right__bottom {
   padding: 2.5rem;
 }
+.app__center-div {
+    display:flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 h1,
 h2,

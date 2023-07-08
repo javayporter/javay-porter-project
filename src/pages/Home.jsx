@@ -1,5 +1,7 @@
 import Summary from "../components/Summary.jsx";
 import ExperienceCard from "../components/ExperienceCard.jsx";
+import TextBox from "../components/TextBox.jsx";
+import Hero from "../components/Hero.jsx";
 
 const Home = () => {
     return (
@@ -8,6 +10,10 @@ const Home = () => {
             <Summary />
           </div>
           <div className="app__container-right__bottom">
+            <TextBox />
+            <div className="app__center-div">
+            <Hero /> 
+            </div>           
             <ExperienceCard />
           </div>
         </div>

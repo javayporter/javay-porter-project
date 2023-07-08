@@ -49,9 +49,9 @@ const ExperienceCard = ({ title, company, location, dates, description }) => {
           <h4>{job.title}</h4>
           <p className="spacing">{job.description}</p>
           <div className="programming-lang-skills">
-        {job.skills.map((skill) => {
+        {job.skills.map((skill, index) => {
             return (
-                <div className="nested-programming">
+                <div className="nested-programming" key={index} >
                 <Badge text={skill} />
                 </div>
             );

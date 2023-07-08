@@ -1,0 +1,18 @@
+.text__container {
+    max-width: 80%;
+
+}
+.text__header {
+border-left: solid;
+border-color: var(--color-primary);
+border-width: 0.25em;
+padding-left: 1rem;
+font-size: 1.5rem;
+font-weight: bold;
+line-height: 2;
+margin-bottom: 3%;
+
+}
+.text__content {
+margin-bottom: 4%;
+}
