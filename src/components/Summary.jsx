@@ -23,8 +23,8 @@ const Summary = (props) => {
 
 Summary.defaultProps = {
   username: "Javay Porter",
-  title: "Junior Software Engineer",
+  title: "Software Engineer",
   summary:
-    "I'm a software engineer highly proficient in frontend and backend devolopment for simple to complex scalable web apps. I've had the pleasure of working for startups and huge organizations. Check out my blog for my perspective on those experiences. Want to know how I may help your project? Check out my portfolio and resume then reach out.",
+    "I'm highly proficient in frontend and backend devolopment for simple to complex scalable web apps. I've had the pleasure of working for startups and huge organizations. Check out my blog for my perspective on those experiences. Want to know how I may help your project? Check out my portfolio and resume then reach out.",
 };
 export default Summary;
