@@ -15,7 +15,7 @@ const TextBox = ({header, text}) => {
 
 TextBox.defaultProps = {
     header: "What I do",
-    text: "I have 2 years experience building software for clients in multiple industries. Below is a quick overview of my technical skill sets and technologies I've worked with. Want to find out more about my experience? Check out my online resume and project portfolio."
+    text: "I have 1.5 years experience building software for clients in multiple industries. Below is a quick overview of my technical skill sets and technologies I've worked with. Want to find out more about my experience? Check out my online resume and project portfolio."
 };
 
 export default TextBox;
