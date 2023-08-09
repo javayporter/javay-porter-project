@@ -11,7 +11,7 @@ const download_link = "https://970-cs-930966778004-default.cs-us-east1-pkhd.clou
           <p>{props.summary}</p>
         </div>
         <div className="buttons">
-          <a href="/projects"><button className="fancy">View Projects</button></a>
+          <a href="./projects"><button className="fancy">View Projects</button></a>
           <a href={download_link} download="Javay_Porter_Resume">
           <button className="plain">Download Resume</button>
           </a>
