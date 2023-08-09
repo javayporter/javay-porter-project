@@ -32,7 +32,10 @@ Deploying the project on GCP was initially challenging. This project is the firs
 
 ### Install and Run Locally
 
-> git clone git@github.com:javayporter/javay-porter-project.git (SSH) OR git clone https://github.com/javayporter/javay-porter-project.git (HTTPS)
+> git clone git@github.com:javayporter/javay-porter-project.git (SSH)
+>
+> > OR git clone https://github.com/javayporter/javay-porter-project.git (HTTPS)
 >
 > yarn install
+>
 > yarn dev
