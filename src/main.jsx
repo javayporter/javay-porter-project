@@ -7,37 +7,35 @@ import Projects from "./components/Projects.jsx";
 import Layout from "./pages/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import UnderConstruction from "./components/UnderConstruction.jsx";
+import Experience from "./pages/Experience.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
-        {
-            path: "/",
-            element: <Home />
-        } ,       
-        {
-            path: "/projects",
-            element: <UnderConstruction />,
-          },
-          {
-            path: "/about-me",
-            element: <UnderConstruction />,
-          },
-          {
-            path: "/experience",
-            element: <UnderConstruction />,
-          },
-          {
-            path: "/contact",
-            element: <UnderConstruction />,
-          }
-    ]
-    
-  }
-  
-
+      {
+        path: "/",
+        element: <Experience />,
+      },
+      {
+        path: "/projects",
+        element: <UnderConstruction />,
+      },
+      {
+        path: "/about-me",
+        element: <UnderConstruction />,
+      },
+      {
+        path: "/experience",
+        element: <Experience />,
+      },
+      {
+        path: "/contact",
+        element: <UnderConstruction />,
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

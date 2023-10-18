@@ -1,14 +1,12 @@
-
-
-.navbar {
+.myNavbar {
   min-height: calc(100vh);
   color: var(--color-secondary-text);
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-overflow-y:scroll;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
 }
 
 .nav__toggle-btn {
@@ -20,13 +18,12 @@ overflow-y:scroll;
 }
 
 .bottom {
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    padding-top: 15%;
-    border-top: solid;
-    border-color: rgba(211, 211, 211, 0.77);
-    
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  padding-top: 15%;
+  border-top: solid;
+  border-color: rgba(211, 211, 211, 0.77);
 }
 .sidebar-summary {
   padding-bottom: 1.5rem;
@@ -34,7 +31,7 @@ overflow-y:scroll;
 
 .nav__links {
   display: grid;
-  gap: 1rem; 
+  gap: 1rem;
 }
 
 .nav__links a {
@@ -45,16 +42,12 @@ overflow-y:scroll;
 }
 
 .nav__spacing_container {
-    display: flex;
-    
-    
+  display: flex;
 }
 
 .nav__spacing_1 {
-    margin-right: 10%;
-    
+  margin-right: 10%;
 }
-
 
 .active-nav {
   position: relative;
@@ -90,7 +83,7 @@ overflow-y:scroll;
   }
   .bottom {
     padding-top: 0px;
-    border:none;    
+    border: none;
   }
   .top {
     padding-top: 5%;

@@ -1,23 +1,7 @@
-import Summary from "../components/Summary.jsx";
-import ExperienceCard from "../components/ExperienceCard.jsx";
-import TextBox from "../components/TextBox.jsx";
-import Hero from "../components/Hero.jsx";
+import Hero from "../components/Hero";
 
 const Home = () => {
-    return (
-        <div className="app__container-right">
-          <div className="app__container-right__top">
-            <Summary />
-          </div>
-          <div className="app__container-right__bottom">
-            <TextBox />
-            <div className="app__center-div">
-            <Hero /> 
-            </div>           
-            <ExperienceCard />
-          </div>
-        </div>
-    )
-}
+  return <div className="">testing</div>;
+};
 
 export default Home;

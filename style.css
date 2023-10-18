@@ -40,14 +40,14 @@ button {
   font-size: 15px;
 }
 a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
 }
 
 .badge__container {
-    background-color: var(--color-secondary-text);
-    color: var(--color-primary);
+  background-color: var(--color-secondary-text);
+  color: var(--color-primary);
 }
 
 .container {
@@ -56,7 +56,7 @@ a {
   margin-inline: auto;
 }
 
-.app__container {
+/* .app__container {
   display: flex;
 }
 
@@ -69,8 +69,7 @@ a {
 }
 
 .app__container-right {
-  flex: 8;
-}
+} */
 .app__container-right__top {
   background-color: var(--color-secondary-text);
 }
@@ -78,10 +77,10 @@ a {
   padding: 2.5rem;
 }
 .app__center-div {
-    display:flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 h1,

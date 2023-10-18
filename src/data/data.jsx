@@ -1,4 +1,5 @@
 import { navIcons } from "../components/Icons";
+
 export const links = [
   {
     name: "About Me",
