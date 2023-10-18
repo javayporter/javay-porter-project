@@ -1,9 +1,27 @@
 .hero__container {
   display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero-left {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2%;
+}
+
+.hero-right {
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 750px) {
   .hero__container {
-    max-width: 60%;
+    display: block;
   }
 }
