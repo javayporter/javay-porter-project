@@ -9,7 +9,7 @@ const Hero = ({ greeting, name, title, buttonTextA, buttonTextB, mainImg }) => {
         <h1>{`I'm ${name}`}</h1>
         <h2>{`I am a ${title}`}</h2>
         <div className="button-container">
-          <Button>{buttonTextA}</Button>
+          <Button className="fancy-button">{buttonTextA}</Button>
           <Button>{buttonTextB}</Button>
         </div>
       </div>

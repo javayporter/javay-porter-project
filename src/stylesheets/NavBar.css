@@ -1,3 +1,7 @@
+.the-navbar {
+  background-color: var(--primary-color);
+}
+
 .hamburger {
   display: none;
 }

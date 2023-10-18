@@ -15,6 +15,10 @@
   --color-secondary: hsl(var(--gray-hue), 79%, 22%);
   --color-secondary-text: hsl(var(--primary-hue), 39%, 92%);
 
+  --primary-color: rgba(40, 55, 86, 255);
+  --primary-text-color: white;
+  --secondary-text-color: rgba(166, 161, 241, 255);
+
   --container-width-lg: 80%;
   --container-width-md: 90%;
 
@@ -26,8 +30,11 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
   /* background-color: var(--color-primary); */
 }
+
 button {
   background-color: var(--color-primary);
   text-decoration: none;
@@ -69,7 +76,7 @@ a {
 }
 
 .app__container-right {
-} */
+} 
 .app__container-right__top {
   background-color: var(--color-secondary-text);
 }
@@ -81,7 +88,7 @@ a {
   justify-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
-}
+} */
 
 h1,
 h2,
@@ -94,6 +101,12 @@ h6 {
 
 .icon-padding {
   padding: 0.2rem;
+}
+
+/* NAVBAR */
+.navbar-brand,
+.nav-link {
+  color: var(--primary-text-color);
 }
 
 /* MEDIA QUERIES (small and medium screens */

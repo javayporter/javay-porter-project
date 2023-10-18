@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../App.css";
 import "../stylesheets/NavBar.css";
+import "/style.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -29,8 +30,8 @@ const NavBar = () => {
     }
   };
   return (
-    <Navbar className="navbar" fixed="top" bg="light" variant="light">
-      <Container>
+    <Navbar className="the-navbar" fixed="top">
+      <Container className="color-nav">
         <Navbar.Brand id="title" href="/">
           Javay Porter
         </Navbar.Brand>
