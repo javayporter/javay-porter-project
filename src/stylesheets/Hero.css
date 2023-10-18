@@ -44,18 +44,34 @@
 img {
   width: 575px;
 }
+.special-word {
+  color: var(--secondary-text-color);
+}
 
 .button-container {
   display: flex;
   gap: 1rem;
 }
-.fancy-button {
+.resume-button {
   --bs-btn-bg: var(--secondary-text-color);
   --bs-btn-border-color: var(--secondary-text-color);
+  --bs-btn-hover-bg: var(--secondary-text-color);
+}
+.contact-button {
+  --bs-btn-bg: var(--highlight-color);
+  --bs-btn-border-color: var(--highlight-color);
+  --bs-btn-hover-bg: var(--highlight-color);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 550px) {
   .hero__container {
     display: block;
+  }
+  img {
+    width: 100%;
+  }
+  .hero-right {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   }
 }

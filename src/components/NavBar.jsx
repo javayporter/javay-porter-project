@@ -29,11 +29,12 @@ const NavBar = () => {
       navbar.classList.toggle("transparent");
     }
   };
+  const stuff = "</ Javay Porter >";
   return (
     <Navbar className="the-navbar" fixed="top">
       <Container className="color-nav">
         <Navbar.Brand id="title" href="/">
-          Javay Porter
+          {stuff}
         </Navbar.Brand>
         <Nav className="nav-links">
           <Nav.Link href="/about">About</Nav.Link>

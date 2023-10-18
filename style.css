@@ -18,6 +18,7 @@
   --primary-color: rgba(40, 55, 86, 255);
   --primary-text-color: white;
   --secondary-text-color: rgba(166, 161, 241, 255);
+  --highlight-color: rgba(236, 220, 107, 255);
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -108,6 +109,14 @@ h6 {
   color: var(--secondary-text-color);
 }
 .nav-link {
+  color: var(--primary-text-color);
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--highlight-color);
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
   color: var(--primary-text-color);
 }
 
