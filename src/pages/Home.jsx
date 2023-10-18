@@ -1,9 +1,10 @@
 import Hero from "../components/Hero";
 import mainImg from "../assets/girlCoding.jpg";
+import "../App.css";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="home-page">
       <Hero
         greeting="Hi"
         name="Javay Porter"

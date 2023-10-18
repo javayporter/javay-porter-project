@@ -1,6 +1,6 @@
 .hero__container {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
 }
 
@@ -12,6 +12,37 @@
 }
 
 .hero-right {
+  -webkit-clip-path: polygon(
+    5% 32%,
+    4% 11%,
+    27% 11%,
+    62% 0,
+    71% 14%,
+    100% 19%,
+    94% 74%,
+    81% 79%,
+    73% 99%,
+    35% 91%,
+    15% 94%,
+    0 56%
+  );
+  clip-path: polygon(
+    5% 32%,
+    4% 11%,
+    27% 11%,
+    62% 0,
+    71% 14%,
+    100% 19%,
+    94% 74%,
+    81% 79%,
+    73% 99%,
+    35% 91%,
+    15% 94%,
+    0 56%
+  );
+}
+img {
+  width: 575px;
 }
 
 .button-container {

@@ -104,7 +104,9 @@ h6 {
 }
 
 /* NAVBAR */
-.navbar-brand,
+.navbar-brand {
+  color: var(--secondary-text-color);
+}
 .nav-link {
   color: var(--primary-text-color);
 }
