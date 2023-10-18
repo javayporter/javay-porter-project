@@ -53,5 +53,13 @@ p {
   }
   .job-dates {
     min-width: 40%;
+    margin-bottom: 5px;
+  }
+  .card__container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .work-details {
+    display: block;
   }
 }
