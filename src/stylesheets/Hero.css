@@ -50,7 +50,7 @@ img {
 
 .button-container {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .resume-button {
   --bs-btn-bg: var(--secondary-text-color);
