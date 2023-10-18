@@ -8,7 +8,7 @@
 }
 .card__container {
   border: none;
-  max-width: 40%;
+  max-width: 50%;
   padding: 2% 0% 2% 0%;
   margin-bottom: 2%;
 }
@@ -58,6 +58,7 @@ p {
   .card__container {
     max-width: 100%;
     width: 100%;
+    margin-bottom: 4%;
   }
   .work-details {
     display: block;

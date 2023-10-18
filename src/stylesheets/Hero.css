@@ -61,8 +61,10 @@ img {
 }
 .contact-button {
   --bs-btn-bg: var(--highlight-color);
+  --bs-btn-color: var(--primary-color);
   --bs-btn-border-color: var(--highlight-color);
   --bs-btn-hover-bg: var(--highlight-color);
+  --bs-btn-hover-color: var(--primary-color);
 }
 
 @media screen and (max-width: 550px) {

@@ -38,7 +38,7 @@ const NavBar = () => {
   const stuff = "</ Javay Porter >";
   return (
     <Navbar className="the-navbar" fixed="top">
-      <Container className="color-nav">
+      <Container>
         <Navbar.Brand id="title" href="/">
           {stuff}
         </Navbar.Brand>
