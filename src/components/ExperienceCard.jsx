@@ -1,9 +1,8 @@
 import "../stylesheets/ExperienceCard.css";
-import Badge from '../components/Badge.jsx';
+import Badge from "../components/Badge.jsx";
 
 const ExperienceCard = ({ title, company, location, dates, description }) => {
-    
-    const workExperience = [
+  const workExperience = [
     {
       id: 1,
       title: "Junior Software Engineer - Angi",
@@ -12,9 +11,7 @@ const ExperienceCard = ({ title, company, location, dates, description }) => {
       dates: "JAN 2022 - DEC 2022",
       description:
         "Collaborated with cross-functinal team to define features and build power and easy-to-use products. Developed web applications and tools to streamline and improve company processes.",
-    skills: [
-        "React", "Javascript", "Typescript", "Ruby", "Python", "Java"
-    ]        
+      skills: ["React", "Javascript", "Typescript", "Ruby", "Python", "Java"],
     },
     {
       id: 2,
@@ -24,9 +21,7 @@ const ExperienceCard = ({ title, company, location, dates, description }) => {
       dates: "OCT 2019 - DEC 2021",
       description:
         "Created, maintained, and executed manual and automated test cases for requirement validation, integration, regression, and usability testing.",
-        skills: [
-            "Python", "Java", "Gherkin", "SQL"
-        ]        
+      skills: ["Python", "Java", "Gherkin", "SQL"],
     },
     {
       id: 3,
@@ -36,35 +31,29 @@ const ExperienceCard = ({ title, company, location, dates, description }) => {
       dates: "MAR 2017 - OCT 2019",
       description:
         "Leveraged tools, resources, and company produceres to lead a team in addressing, diagnosing, and resolving technical issues.",
-        skills: [
-            "HTML", "CSS", "SCSS", "Javascript"
-        ]
+      skills: ["HTML", "CSS", "SCSS", "Javascript"],
     },
   ];
   const content = workExperience.map((job) => (
     <div className="card__container" key={job.id}>
       <div className="work-details">
-        <div className="job-dates">{job.dates}</div>        
+        <div className="job-dates">{job.dates}</div>
         <div className="job-details">
-          <h4>{job.title}</h4>
+          <h6>{job.title}</h6>
           <p className="spacing">{job.description}</p>
           <div className="programming-lang-skills">
-        {job.skills.map((skill, index) => {
-            return (
-                <div className="nested-programming" key={index} >
-                <Badge text={skill} />
+            {job.skills.map((skill, index) => {
+              return (
+                <div className="nested-programming" key={index}>
+                  <Badge text={skill} />
                 </div>
-            );
-        })
-        }
-        
-      </div>
+              );
+            })}
+          </div>
         </div>
-        
       </div>
-      
     </div>
   ));
-  return <div className="main-container">{content}</div>;
+  return <div className="experience__">{content}</div>;
 };
 export default ExperienceCard;

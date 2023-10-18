@@ -6,6 +6,7 @@ import "../stylesheets/NavBar.css";
 import "/style.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { Button } from "react-bootstrap";
 
 const NavBar = () => {
   const handleClick = () => {
@@ -29,6 +30,11 @@ const NavBar = () => {
       navbar.classList.toggle("transparent");
     }
   };
+  const returnHeight = () => {
+    const navBar = document.querySelector(".navbar");
+    const navHeight = navBar.offsetHeight;
+    return `${navHeight}px`;
+  };
   const stuff = "</ Javay Porter >";
   return (
     <Navbar className="the-navbar" fixed="top">
@@ -41,6 +47,7 @@ const NavBar = () => {
           <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="/experience">Experience</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
+          <Button>Button</Button>
         </Nav>
         <div className="nav-svgs" onClick={() => handleClick()}>
           <GiHamburgerMenu className="hamburger" id="hamburger" />

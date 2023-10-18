@@ -18,6 +18,7 @@
   --primary-color: rgba(40, 55, 86, 255);
   --primary-text-color: white;
   --secondary-text-color: rgba(166, 161, 241, 255);
+  --color: 166, 161, 241;
   --highlight-color: rgba(236, 220, 107, 255);
 
   --container-width-lg: 80%;
@@ -51,11 +52,6 @@ a {
   text-decoration: none;
   color: white;
   font-weight: bolder;
-}
-
-.badge__container {
-  background-color: var(--color-secondary-text);
-  color: var(--color-primary);
 }
 
 .container {

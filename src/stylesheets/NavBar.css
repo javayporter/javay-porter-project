@@ -1,5 +1,12 @@
 .the-navbar {
   background-color: var(--primary-color);
+  padding: 2%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  align-items: center;
 }
 
 .hamburger {

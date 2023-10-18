@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import mainImg from "../assets/girlCoding.jpg";
 import "../App.css";
+import Experience from "./Experience";
+import ExperienceCard from "../components/ExperienceCard";
 
 const Home = () => {
   return (
@@ -13,6 +15,9 @@ const Home = () => {
         buttonTextB="Contact"
         mainImg={mainImg}
       />
+      <div className="experience">
+        <ExperienceCard />
+      </div>
     </div>
   );
 };

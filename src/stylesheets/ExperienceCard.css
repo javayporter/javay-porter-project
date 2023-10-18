@@ -1,49 +1,57 @@
+.experience__ {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 7%;
+  margin-top: 2%;
+}
 .card__container {
   border: none;
-  max-width: 55%;
+  max-width: 40%;
   padding: 2% 0% 2% 0%;
   margin-bottom: 2%;
 }
+p {
+  font-size: 14px;
+}
 
 .spacing {
-    margin-top: 2%;
-    margin-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .programming-lang-skills {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 4%;  
-    gap: 0.3rem;  
-  }
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  gap: 0.3rem;
+}
 
 .job-details {
-    flex: 2.9; 
-    max-width: 60%; 
+  flex: 2.9;
+  max-width: 60%;
 }
 .job-dates {
-    flex: 1;
-    font-size: 0.85rem;
-    padding-top: 0.5%;
-    min-width: 25%;
-    max-width: 25%;
-    color: hsl(0,0%,0%, 0.9);
-   
-
+  flex: 1;
+  font-size: 0.85rem;
+  padding-top: 0.5%;
+  min-width: 25%;
+  max-width: 25%;
+  color: var(--secondary-text-color);
+  font-weight: 300;
 }
 .work-details {
-    display: flex;
-    gap: 1.5rem;
-
+  display: flex;
+  gap: 1.5rem;
 }
 
 /* MEDIA QUERIES (small and medium screens) */
 @media screen and (max-width: 850px) {
-    .job-details {
-        min-width: 100%;
-    }
-    .job-dates {
-        min-width: 40%;
-    }
+  .job-details {
+    min-width: 100%;
+  }
+  .job-dates {
+    min-width: 40%;
+  }
 }
-
