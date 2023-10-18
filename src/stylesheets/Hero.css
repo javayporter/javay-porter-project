@@ -1,12 +1,84 @@
 .hero__container {
-    display: flex;
-    gap: 2em;
-    flex-wrap: wrap;
-    max-width: 80%;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
 }
 
-@media screen and (max-width: 750px) {
-    .hero__container {
-        max-width: 60%;
-    }
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2%;
+}
+
+.hero-right {
+  -webkit-clip-path: polygon(
+    5% 32%,
+    4% 11%,
+    27% 11%,
+    62% 0,
+    71% 14%,
+    100% 19%,
+    94% 74%,
+    81% 79%,
+    73% 99%,
+    35% 91%,
+    15% 94%,
+    0 56%
+  );
+  clip-path: polygon(
+    5% 32%,
+    4% 11%,
+    27% 11%,
+    62% 0,
+    71% 14%,
+    100% 19%,
+    94% 74%,
+    81% 79%,
+    73% 99%,
+    35% 91%,
+    15% 94%,
+    0 56%
+  );
+}
+img {
+  width: 575px;
+}
+.special-word {
+  color: var(--secondary-text-color);
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+  padding: 2%;
+}
+.resume-button {
+  --bs-btn-bg: var(--secondary-text-color);
+  --bs-btn-border-color: var(--secondary-text-color);
+  --bs-btn-hover-bg: var(--secondary-text-color);
+}
+.contact-button {
+  --bs-btn-bg: var(--highlight-color);
+  --bs-btn-color: var(--primary-color);
+  --bs-btn-border-color: var(--highlight-color);
+  --bs-btn-hover-bg: var(--highlight-color);
+  --bs-btn-hover-color: var(--primary-color);
+}
+
+@media screen and (max-width: 550px) {
+  .hero__container {
+    display: block;
+  }
+  img {
+    width: 100%;
+  }
+  .hero-right {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  }
+  .button-container {
+    margin-bottom: 10px;
+  }
 }

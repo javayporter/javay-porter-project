@@ -1,0 +1,53 @@
+.the-navbar {
+  background-color: var(--primary-color);
+  padding: 2%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+}
+.close-svg {
+  display: none;
+}
+
+.nav-svgs {
+  display: none;
+}
+
+.no-display {
+  display: none;
+}
+.display {
+  display: block;
+}
+
+.transparent {
+  opacity: 0.9;
+}
+.subscribe-btn {
+  --bs-btn-bg: var(--accent-color);
+  --bs-btn-border-color: var(--highlight-color);
+  --bs-btn-hover-bg: var(--highlight-color);
+  --bs-btn-hover-border-color: var(--accent-color);
+  --bs-btn-hover-color: var(--accent-color);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-svgs {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-links {
+    display: none;
+  }
+}

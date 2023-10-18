@@ -13,31 +13,28 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout />,
     children: [
-        {
-            path: "/",
-            element: <Home />
-        } ,       
-        {
-            path: "/projects",
-            element: <UnderConstruction />,
-          },
-          {
-            path: "/about-me",
-            element: <UnderConstruction />,
-          },
-          {
-            path: "/experience",
-            element: <UnderConstruction />,
-          },
-          {
-            path: "/contact",
-            element: <UnderConstruction />,
-          }
-    ]
-    
-  }
-  
-
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/projects",
+        element: <UnderConstruction />,
+      },
+      {
+        path: "/about",
+        element: <UnderConstruction />,
+      },
+      {
+        path: "/experience",
+        element: <ExperienceCard />,
+      },
+      {
+        path: "/contact",
+        element: <UnderConstruction />,
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

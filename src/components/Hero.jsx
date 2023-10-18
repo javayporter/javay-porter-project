@@ -1,18 +1,23 @@
-import { toolIcons } from "./Icons.jsx";
-import "../stylesheets/Hero.css"
+import { Button } from "react-bootstrap";
+import "../stylesheets/Hero.css";
 
-const Hero = () => {
+const Hero = ({ greeting, name, title, buttonTextA, buttonTextB, mainImg }) => {
   return (
     <div className="hero__container">
-     {
-        toolIcons.map((tool, index) => {
-            return (
-                <div className="tools__container" key={index} >
-                    {tool}
-                    </div>
-            )}
-        )
-     }
+      <div className="hero-left">
+        <h3>{`${greeting},`}</h3>
+        <h1>
+          I'm <span className="special-word">{name}</span>
+        </h1>
+        <h2>{`I am a ${title}`}</h2>
+        <div className="button-container">
+          <Button className="resume-button">{buttonTextA}</Button>
+          <Button className="contact-button">{buttonTextB}</Button>
+        </div>
+      </div>
+      <div className="hero-right">
+        <img src={mainImg} alt={name} />
+      </div>
     </div>
   );
 };

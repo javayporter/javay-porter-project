@@ -1,23 +1,27 @@
-import Summary from "../components/Summary.jsx";
-import ExperienceCard from "../components/ExperienceCard.jsx";
-import TextBox from "../components/TextBox.jsx";
-import Hero from "../components/Hero.jsx";
+import Hero from "../components/Hero";
+import mainImg from "../assets/girlCoding.jpg";
+import "../App.css";
+import ExperienceCard from "../components/ExperienceCard";
 
 const Home = () => {
-    return (
-        <div className="app__container-right">
-          <div className="app__container-right__top">
-            <Summary />
-          </div>
-          <div className="app__container-right__bottom">
-            <TextBox />
-            <div className="app__center-div">
-            <Hero /> 
-            </div>           
-            <ExperienceCard />
-          </div>
-        </div>
-    )
-}
+  const aboutMe =
+    "I'm highly proficient in frontend and backend devolopment for simple to complex scalable web apps. I've had the pleasure of working for startups and huge organizations. Check out my blog for my perspective on those experiences. Want to know how I may help your project? Check out my portfolio and resume then reach out.";
+
+  return (
+    <div className="home-page">
+      <Hero
+        greeting="Hi"
+        name="Javay Porter"
+        title="Software Engineer"
+        buttonTextA="Resume"
+        buttonTextB="Contact"
+        mainImg={mainImg}
+      />
+      <div className="experience">
+        <ExperienceCard />
+      </div>
+    </div>
+  );
+};
 
 export default Home;
