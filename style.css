@@ -20,6 +20,7 @@
   --secondary-text-color: rgba(166, 161, 241, 255);
   --color: 166, 161, 241;
   --highlight-color: rgba(236, 220, 107, 255);
+  --accent-color: rgba(78, 97, 173, 255);
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -38,12 +39,8 @@ body {
 }
 
 button {
-  background-color: var(--color-primary);
   text-decoration: none;
   border: none;
-  color: white;
-  padding: 5px 12px;
-  margin: 1.5rem 0.5rem;
   border-radius: 4px;
   font-weight: bold;
   font-size: 15px;

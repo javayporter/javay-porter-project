@@ -30,6 +30,13 @@
 .transparent {
   opacity: 0.9;
 }
+.subscribe-btn {
+  --bs-btn-bg: var(--accent-color);
+  --bs-btn-border-color: var(--highlight-color);
+  --bs-btn-hover-bg: var(--highlight-color);
+  --bs-btn-hover-border-color: var(--accent-color);
+  --bs-btn-hover-color: var(--accent-color);
+}
 
 /* Media Queries */
 @media screen and (max-width: 768px) {

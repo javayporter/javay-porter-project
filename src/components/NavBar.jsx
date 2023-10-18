@@ -47,7 +47,7 @@ const NavBar = () => {
           <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="/experience">Experience</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
-          <Button>Button</Button>
+          <Button className="subscribe-btn">Subscribe</Button>
         </Nav>
         <div className="nav-svgs" onClick={() => handleClick()}>
           <GiHamburgerMenu className="hamburger" id="hamburger" />
