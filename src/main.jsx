@@ -7,7 +7,6 @@ import Projects from "./components/Projects.jsx";
 import Layout from "./pages/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import UnderConstruction from "./components/UnderConstruction.jsx";
-import Experience from "./pages/Experience.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/experience",
-        element: <Experience />,
+        element: <ExperienceCard />,
       },
       {
         path: "/contact",

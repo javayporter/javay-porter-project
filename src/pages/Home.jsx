@@ -1,10 +1,12 @@
 import Hero from "../components/Hero";
 import mainImg from "../assets/girlCoding.jpg";
 import "../App.css";
-import Experience from "./Experience";
 import ExperienceCard from "../components/ExperienceCard";
 
 const Home = () => {
+  const aboutMe =
+    "I'm highly proficient in frontend and backend devolopment for simple to complex scalable web apps. I've had the pleasure of working for startups and huge organizations. Check out my blog for my perspective on those experiences. Want to know how I may help your project? Check out my portfolio and resume then reach out.";
+
   return (
     <div className="home-page">
       <Hero
