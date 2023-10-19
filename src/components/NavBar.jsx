@@ -50,8 +50,8 @@ const NavBar = () => {
           <Button className="subscribe-btn">Subscribe</Button>
         </Nav>
         <div className="nav-svgs" onClick={() => handleClick()}>
-          <GiHamburgerMenu className="hamburger" id="hamburger" />
-          <AiOutlineClose className="close-svg" />
+          <GiHamburgerMenu size="2rem" className="hamburger" id="hamburger" />
+          <AiOutlineClose size="2rem" className="close-svg" />
         </div>
       </Container>
     </Navbar>
