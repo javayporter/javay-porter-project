@@ -14,7 +14,7 @@ export const Home = () => {
         greeting="Hi"
         name="Javay Porter"
         title="Software Engineer"
-        buttonTextA="Resume"
+        buttonTextA=" Resume"
         buttonTextB="Contact"
         mainImg={mainImg}
       />
