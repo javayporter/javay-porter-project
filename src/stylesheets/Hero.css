@@ -67,20 +67,35 @@ img {
   --bs-btn-hover-bg: var(--highlight-color);
   --bs-btn-hover-color: var(--primary-color);
 }
+.resume-button,
+.contact-button {
+  height: 45px;
+  width: 150px;
+}
 
 @media screen and (max-width: 550px) {
   .hero__container {
     display: block;
+    margin-bottom: 30px;
   }
   img {
     width: 100%;
+  }
+  .hero-left {
+    gap: 0;
+    margin-top: 75px;
   }
   .hero-right {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   }
   .button-container {
-    margin-bottom: 15px;
-    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .resume-button,
+  .contact-button {
+    height: auto;
+    width: 75px;
   }
 }

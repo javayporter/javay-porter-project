@@ -35,13 +35,17 @@ const NavBar = () => {
     const navHeight = navBar.offsetHeight;
     return `${navHeight}px`;
   };
-  const stuff = "</ Javay Porter >";
+  const leftBrac = "</ ";
+  const stuff = "Javay Porter";
+  const rightBrac = " >";
 
   return (
     <Navbar className="the-navbar" fixed="top">
       <Container>
-        <Navbar.Brand id="title" href="/">
+        <Navbar.Brand className="jp-logo" id="title" href="/">
+          <span className="color-wht">{leftBrac}</span>
           {stuff}
+          <span className="color-wht">{rightBrac}</span>
         </Navbar.Brand>
         <Nav className="nav-links">
           <Nav.Link href="/about">About</Nav.Link>

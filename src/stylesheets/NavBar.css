@@ -37,6 +37,9 @@
   --bs-btn-hover-border-color: var(--accent-color);
   --bs-btn-hover-color: var(--accent-color);
 }
+.color-wht {
+  color: white;
+}
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
@@ -49,5 +52,14 @@
   }
   .nav-links {
     display: none;
+    font-size: 14px;
+    line-height: 3;
+  }
+
+  .subscribe-btn {
+    font-size: 14px;
+  }
+  .jp-logo {
+    font-size: 17px;
   }
 }
