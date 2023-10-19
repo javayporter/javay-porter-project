@@ -1,9 +1,9 @@
 #contact-area {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
   padding: 3%;
-  margin-bottom: 5%;
+  margin-bottom: 100px;
 }
 .contact-area__left {
   display: flex;
@@ -32,4 +32,18 @@
 }
 .linkedin-icon {
   color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 768px) {
+  #contact-area {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 75px;
+    text-align: center;
+  }
+  .contact-header {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
 }

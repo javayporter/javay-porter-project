@@ -6,7 +6,7 @@ export const ContactArea = ({ cityState, phone, email }) => {
     <div id="contact-area">
       <div className="contact-area__left">
         <h4 className="contact-header">
-          Contact <span className="highlight-color">Me</span>
+          Contact <span className="highlight-color">Me!</span>
         </h4>
         <p>{cityState}</p>
         <p>{`Phone: ${phone}`}</p>
