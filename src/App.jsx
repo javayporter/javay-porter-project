@@ -9,17 +9,15 @@ import { ExperienceCard } from "./components/ExperienceCard";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<UnderConstruction />} />
-          <Route path="/projects" element={<UnderConstruction />} />
-          <Route path="/experience" element={<ExperienceCard />} />
-          <Route path="/contact" element={<UnderConstruction />} />
-        </Route>
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/about" element={<UnderConstruction />} />
+        <Route path="/projects" element={<UnderConstruction />} />
+        <Route path="/experience" element={<ExperienceCard />} />
+        <Route path="/contact" element={<UnderConstruction />} />
+      </Route>
+    </Routes>
   );
 }
 
