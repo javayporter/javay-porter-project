@@ -7,6 +7,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  -webkit-overflow-scrolling: auto;
 }
 :root {
   --primary-color: rgba(40, 55, 86, 255);
@@ -23,6 +24,7 @@
 }
 html {
   font-size: calc(10px + 0.390625vw);
+  background-color: var(--primary-color);
 }
 
 body {
