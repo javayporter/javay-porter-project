@@ -1,5 +1,6 @@
 import { Button } from "react-bootstrap";
 import "../stylesheets/Hero.css";
+import jpResume from "../assets/JavayPorterResume_2023.pdf";
 
 const Hero = ({ greeting, name, title, buttonTextA, buttonTextB, mainImg }) => {
   return (
@@ -11,7 +12,9 @@ const Hero = ({ greeting, name, title, buttonTextA, buttonTextB, mainImg }) => {
         </h1>
         <h2>{`I am a ${title}`}</h2>
         <div className="button-container">
-          <Button className="resume-button">{buttonTextA}</Button>
+          <a href={jpResume} download>
+            <Button className="resume-button">{buttonTextA}</Button>
+          </a>
           <Button className="contact-button">{buttonTextB}</Button>
         </div>
       </div>
