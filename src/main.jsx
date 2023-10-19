@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  BrowserRouter,
+} from "react-router-dom";
 import App from "./App.jsx";
 import ExperienceCard from "./components/ExperienceCard.jsx";
 import Layout from "./pages/Layout.jsx";
@@ -39,7 +43,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    {/* <RouterProvider router={router} /> */}
   </React.StrictMode>
 );
