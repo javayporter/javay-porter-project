@@ -1,6 +1,6 @@
 .hero__container {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   justify-content: center;
 }
 
@@ -53,6 +53,7 @@ img {
   display: flex;
   gap: 1rem;
   padding: 2%;
+  margin-top: 5%;
 }
 .resume-button {
   --bs-btn-bg: var(--secondary-text-color);
@@ -79,6 +80,7 @@ img {
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   }
   .button-container {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
   }
 }

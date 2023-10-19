@@ -28,7 +28,7 @@
 }
 
 .transparent {
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .subscribe-btn {
   --bs-btn-bg: var(--accent-color);
