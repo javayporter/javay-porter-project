@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/projects",
+        path: "https:www.javayporter.com/projects",
         element: <UnderConstruction />,
       },
       {

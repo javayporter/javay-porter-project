@@ -36,6 +36,7 @@ const NavBar = () => {
     return `${navHeight}px`;
   };
   const stuff = "</ Javay Porter >";
+  const temporaryTest = "https://www.javayporter.com";
   return (
     <Navbar className="the-navbar" fixed="top">
       <Container>
@@ -44,14 +45,14 @@ const NavBar = () => {
         </Navbar.Brand>
         <Nav className="nav-links">
           <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href={`${temporaryTest}/projects`}>Projects</Nav.Link>
           <Nav.Link href="/experience">Experience</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Button className="subscribe-btn">Subscribe</Button>
         </Nav>
         <div className="nav-svgs" onClick={() => handleClick()}>
-          <GiHamburgerMenu className="hamburger" id="hamburger" />
-          <AiOutlineClose className="close-svg" />
+          <GiHamburgerMenu size="2rem" className="hamburger" id="hamburger" />
+          <AiOutlineClose size="2rem" className="close-svg" />
         </div>
       </Container>
     </Navbar>
