@@ -23,6 +23,10 @@ This react project was created using **Vite**, a local development server.
 
 Deploying the project on GCP was initially challenging. This project is the first I attempted to deploy on the platfrom. I ran into issues with build files and triggering build events. Diving deeper into GCP documentation and reviewing posts from other developers with similar issues helped me overcome the challenges.
 
+## Deployment
+
+The app was originally deployed on Google Cloud Platform. After my trial period ended, I decided to deploy the project with Vercel.
+
 ## Install and Run the Project
 
 ### Run Project
