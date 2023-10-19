@@ -36,6 +36,8 @@
   --bs-btn-hover-bg: var(--highlight-color);
   --bs-btn-hover-border-color: var(--accent-color);
   --bs-btn-hover-color: var(--accent-color);
+  --bs-btn-active-bg: var(--accent-color);
+  width: 75px;
 }
 .color-wht {
   color: white;

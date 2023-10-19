@@ -78,6 +78,10 @@ h6 {
 .navbar-brand:hover {
   color: var(--primary-text-color);
 }
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--highlight-color);
+}
 
 /* MEDIA QUERIES (small and medium screens */
 @media screen and (max-width: 601px) {

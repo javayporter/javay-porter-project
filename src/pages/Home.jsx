@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import mainImg from "../assets/girlCoding.jpg";
 import "../App.css";
 import { ExperienceCard } from "../components/ExperienceCard";
+import { ContactArea } from "../components/ContactArea";
 
 export const Home = () => {
   const aboutMe =
@@ -19,6 +20,11 @@ export const Home = () => {
       />
       <div className="experience">
         <ExperienceCard />
+        <ContactArea
+          cityState="Lanham, MD"
+          phone="(202)-590-9878"
+          email="porter.javay@gmail.com"
+        />
       </div>
     </div>
   );

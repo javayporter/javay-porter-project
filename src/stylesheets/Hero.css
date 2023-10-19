@@ -59,6 +59,7 @@ img {
   --bs-btn-bg: var(--secondary-text-color);
   --bs-btn-border-color: var(--secondary-text-color);
   --bs-btn-hover-bg: var(--secondary-text-color);
+  --bs-btn-active-bg: var(--secondary-text-color);
 }
 .contact-button {
   --bs-btn-bg: var(--highlight-color);
@@ -66,6 +67,7 @@ img {
   --bs-btn-border-color: var(--highlight-color);
   --bs-btn-hover-bg: var(--highlight-color);
   --bs-btn-hover-color: var(--primary-color);
+  --bs-btn-active-bg: var(--highlight-color);
 }
 .resume-button,
 .contact-button {

@@ -3,6 +3,11 @@ import "../stylesheets/Hero.css";
 import jpResume from "../assets/JavayPorterResume_2023.pdf";
 
 const Hero = ({ greeting, name, title, buttonTextA, buttonTextB, mainImg }) => {
+  const showContact = () => {
+    const contactArea = document.querySelector("#contact-area");
+    contactArea.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="hero__container">
       <div className="hero-left">
@@ -15,7 +20,9 @@ const Hero = ({ greeting, name, title, buttonTextA, buttonTextB, mainImg }) => {
           <a href={jpResume} download>
             <Button className="resume-button">{buttonTextA}</Button>
           </a>
-          <Button className="contact-button">{buttonTextB}</Button>
+          <Button className="contact-button" onClick={() => showContact()}>
+            {buttonTextB}
+          </Button>
         </div>
       </div>
       <div className="hero-right">

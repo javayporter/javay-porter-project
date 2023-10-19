@@ -60,5 +60,9 @@ export const ExperienceCard = ({
       </div>
     </div>
   ));
-  return <div className="experience__">{content}</div>;
+  return (
+    <div id="experience" className="experience__">
+      {content}
+    </div>
+  );
 };

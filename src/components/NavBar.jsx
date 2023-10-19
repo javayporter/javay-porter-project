@@ -6,6 +6,7 @@ import "../stylesheets/NavBar.css";
 import "../style.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { HiCode } from "react-icons/hi";
 import { Button } from "react-bootstrap";
 
 const NavBar = () => {
@@ -30,14 +31,22 @@ const NavBar = () => {
       navbar.classList.toggle("transparent");
     }
   };
+
+  // used for dev to get elemet height
   const returnHeight = () => {
     const navBar = document.querySelector(".navbar");
     const navHeight = navBar.offsetHeight;
     return `${navHeight}px`;
   };
+
   const leftBrac = "</ ";
   const stuff = "Javay Porter";
   const rightBrac = " >";
+
+  const showContact = () => {
+    const contactArea = document.querySelector(".experience__");
+    contactArea.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <Navbar className="the-navbar" fixed="top">
@@ -50,9 +59,17 @@ const NavBar = () => {
         <Nav className="nav-links">
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/experience">Experience</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
-          <Button className="subscribe-btn">Subscribe</Button>
+          <Nav.Link href="/#experience" onClick={() => showContact()}>
+            Experience
+          </Nav.Link>
+          <Nav.Link href="/blog">Blog</Nav.Link>
+          <Button
+            href="https://github.com/javayporter/javay-porter-project"
+            target="_blank"
+            className="subscribe-btn"
+          >
+            <HiCode size="2rem" />
+          </Button>
         </Nav>
         <div className="nav-svgs" onClick={() => handleClick()}>
           <GiHamburgerMenu size="2rem" className="hamburger" id="hamburger" />
