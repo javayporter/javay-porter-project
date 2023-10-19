@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./pages/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import UnderConstruction from "./components/UnderConstruction";
-import ExperienceCard from "./components/ExperienceCard";
+import { ExperienceCard } from "./components/ExperienceCard";
 
 function App() {
   return (

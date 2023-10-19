@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import mainImg from "../assets/girlCoding.jpg";
 import "../App.css";
-import ExperienceCard from "../components/ExperienceCard";
+import { ExperienceCard } from "../components/ExperienceCard";
 
 const Home = () => {
   const aboutMe =

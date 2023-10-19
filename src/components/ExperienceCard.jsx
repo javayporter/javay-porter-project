@@ -1,7 +1,13 @@
 import "../stylesheets/ExperienceCard.css";
 import Badge from "../components/Badge.jsx";
 
-const ExperienceCard = ({ title, company, location, dates, description }) => {
+export const ExperienceCard = ({
+  title,
+  company,
+  location,
+  dates,
+  description,
+}) => {
   const workExperience = [
     {
       id: 1,
@@ -56,4 +62,3 @@ const ExperienceCard = ({ title, company, location, dates, description }) => {
   ));
   return <div className="experience__">{content}</div>;
 };
-export default ExperienceCard;
