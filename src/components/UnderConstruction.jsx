@@ -1,15 +1,15 @@
 import "../App.css";
+import { PiSealWarningFill } from "react-icons/pi";
 
-import { PiWarningBold } from "react-icons/pi";
 export const UnderConstruction = () => {
   return (
     <div className="under-construction">
       <div className="warning-text">
-        <h4>Page Under Constructon</h4>
-        <h5>Content will be avaiable soon! Thank you for your patience.</h5>
+        <h5>Page Under Constructon</h5>
+        <p>Content will be avaiable soon! Thank you for your patience.</p>
       </div>
       <div className="warning-icon">
-        <PiWarningBold size="20em" />
+        <PiSealWarningFill size="12em" />
       </div>
     </div>
   );
