@@ -6,10 +6,6 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import App from "./App.jsx";
-
-import Layout from "./pages/Layout.jsx";
-import Home from "./pages/Home.jsx";
-import UnderConstruction from "./components/UnderConstruction.jsx";
 import "./style.css";
 
 // const router = createBrowserRouter([

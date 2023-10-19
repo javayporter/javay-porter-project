@@ -1,7 +1,7 @@
 import "../App.css";
 
 import { PiWarningBold } from "react-icons/pi";
-const UnderConstruction = () => {
+export const UnderConstruction = () => {
   return (
     <div className="under-construction">
       <div className="warning-text">
@@ -14,5 +14,3 @@ const UnderConstruction = () => {
     </div>
   );
 };
-
-export default UnderConstruction;
