@@ -12,34 +12,34 @@ import Home from "./pages/Home.jsx";
 import UnderConstruction from "./components/UnderConstruction.jsx";
 import "./style.css";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "https:www.javayporter.com/projects",
-        element: <UnderConstruction />,
-      },
-      {
-        path: "/about",
-        element: <UnderConstruction />,
-      },
-      {
-        path: "/experience",
-        element: <ExperienceCard />,
-      },
-      {
-        path: "/contact",
-        element: <UnderConstruction />,
-      },
-    ],
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Layout />,
+//     children: [
+//       {
+//         path: "/",
+//         element: <Home />,
+//       },
+//       {
+//         path: "https:www.javayporter.com/projects",
+//         element: <UnderConstruction />,
+//       },
+//       {
+//         path: "/about",
+//         element: <UnderConstruction />,
+//       },
+//       {
+//         path: "/experience",
+//         element: <ExperienceCard />,
+//       },
+//       {
+//         path: "/contact",
+//         element: <UnderConstruction />,
+//       },
+//     ],
+//   },
+// ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
