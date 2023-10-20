@@ -9,8 +9,12 @@ export const ContactArea = ({ cityState, phone, email }) => {
           Contact <span className="highlight-color">Me!</span>
         </h4>
         <p>{cityState}</p>
-        <p>{`Phone: ${phone}`}</p>
-        <p>{`Email: ${email}`}</p>
+        <p>
+          Phone: <a href={`tel:${phone}`}>{phone}</a>
+        </p>
+        <p>
+          Email: <a href={`mailto:${email}`}>{email}</a>
+        </p>
       </div>
       <div className="contact-area__right">
         <SocialIcons />
