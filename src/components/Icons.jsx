@@ -18,12 +18,6 @@ import { BiMessage, BiLogoJavascript } from "react-icons/bi";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import "../stylesheets/ContactArea.css";
 
-export const navIcons = [
-  <RiAliensFill />,
-  <GiSpellBook />,
-  <FaLaptopCode />,
-  <BiMessage />,
-];
 const size = "2.5em";
 const color = "gold";
 
